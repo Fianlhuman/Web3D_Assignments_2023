@@ -1,0 +1,22 @@
+.wrapper {
+  width: 100%;
+  /*min-height: 100vh;*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: var(--bg-primary-color);
+  padding: 100px 100px 0 100px;
+
+  position: relative;
+  
+  transition: 0.5s
+}
+
+@media(max-width: 991px) {
+  .wrapper {
+    padding: 40px;
+  }
+}
